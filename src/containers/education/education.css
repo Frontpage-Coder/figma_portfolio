@@ -1,0 +1,42 @@
+.app__timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 6rem;
+}
+
+.app__timeline-subHeadings {
+    display: flex;
+    
+}
+
+.app__timeline-subHeadings h3 {
+    margin: 1rem 9rem;
+}
+
+.app__timeline-table_pointer {
+    border: 2px solid #222;
+    height: 13rem;
+    margin-top: 3rem;
+    background-color: #222;
+}
+
+.app__timeline-table {
+    display: flex;
+    align-items: center;
+}
+
+.app__timeline-table_education {
+    display: flex;
+    flex-direction: column;
+}
+
+.app__timeline-table_experience {
+    margin-top: 5rem;
+    position: relative;
+    top: 3rem;
+}
+
+.app__timeline-table_education, .app__timeline-table_experience {
+    margin: 1rem 10rem;
+}

@@ -1,0 +1,15 @@
+.app__services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 6rem;
+}
+
+.app__services-card {
+    display: flex;
+    padding: 4rem;
+}
+
+.app__services p {
+    text-align: center;
+}

@@ -1,0 +1,33 @@
+.app__footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app__footer span {
+    color: #f15d00;
+}
+
+.app__footer-links a{
+    text-decoration: none;
+    font-family: var(--text-font);
+    font-weight: 700;
+    font-size: 16.2998px;
+    line-height: 21px;
+    margin: 4rem 3rem;
+    color: #545353;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.app__footer-social_links {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.app__footer-social_links a {
+    margin: 0 3rem;
+    font-size: 32px;
+}

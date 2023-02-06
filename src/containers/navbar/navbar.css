@@ -1,0 +1,45 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.app__navbar-img {
+    width: 53px;
+    height: 14px;
+    font-family: var(--font-family);
+    font-weight: 800;
+    line-height: 14px;
+    text-align: center; 
+}
+
+.app__navbar-links ul {
+    display: flex;
+    list-style: none;
+    margin: 0 ;
+    align-items: flex-start;
+    gap: 1.8rem;
+}
+
+
+.app__navbar-links li {
+    font-weight: 700;
+    line-height: 10px;
+    font-family: var(--text-font);
+}
+
+.app__navbar-links a {
+    font-family: var(--text-font);
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+    text-decoration: none;
+    order: 4;
+}
+
+@media screen and (max-width: 480px) {
+    .app__navbar-links ul {
+        visibility: hidden;
+    }
+}
